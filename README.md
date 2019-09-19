@@ -3,7 +3,7 @@
 This python module was designed to test trading strategies in a quick and easy way.
 It was designed with an emphasis on speed and easy to understand functionality.
 
-## 
+## Intro
 
 A simple backtest can be done by creating a Backtest object:
 
@@ -16,7 +16,7 @@ bt = testing.backtest.Backtest(price, trades)
 The format for both the price and the trades should be a pandas dataframe time series.
 The trades can be booleans with True for every time interval traded and False for not traded.
 
-Therefore, given a pandas dataframe `data`with the columns `price, moving_average_50, moving_average_200`, 
+Therefore, given a pandas dataframe `data` with the columns `price, moving_average_50, moving_average_200`, 
 defining a strategy can be as easy as:
 
 ```python
@@ -39,6 +39,6 @@ After that a summary can be created by the summary() method:
 bt.summary()
 ```
 
-#
+## Detailed 
 
 A more detailed tutorial can be found in the jupyter notebook under /examples
