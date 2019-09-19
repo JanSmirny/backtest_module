@@ -19,7 +19,7 @@ The trades can be booleans with True for every time interval traded and False fo
 Therefore, given a pandas dataframe `data`with the columns `price, moving_average_50, moving_average_200`, 
 defining a strategy can be as easy as:
 
-```
+```python
 trades = data.moving_average_50 > data.moving_average_200
 ```
 
