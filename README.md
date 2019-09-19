@@ -7,7 +7,7 @@ It was designed with an emphasis on speed and easy to understand functionality.
 
 A simple backtest can be done by creating a Backtest object:
 
-```
+```python
 import testing
 
 bt = testing.backtest.Backtest(price, trades)
@@ -27,7 +27,7 @@ Alternative the values can also be:
 After that a summary can be created by the summary() method:
 
 
-```
+```python
 bt.summary()
 ```
 
