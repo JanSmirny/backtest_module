@@ -15,6 +15,14 @@ bt = testing.backtest.Backtest(price, trades)
 
 The format for both the price and the trades should be a pandas dataframe time series.
 The trades can be booleans with True for every time interval traded and False for not traded.
+
+Therefore, given a pandas dataframe `data`with the columns `price, moving_average_50, moving_average_200`, 
+defining a strategy can be as easy as:
+
+```
+trades = data.moving_average_50 > data.moving_average_200
+```
+
 Three True values in a row would therefore represent holding the asset for three time periods.
 Alternative the values can also be:
 * 1 for Buy
