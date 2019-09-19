@@ -1,9 +1,14 @@
 # Backtesting Module
 
 This python module was designed to test trading strategies in a quick and easy way.
-It was designed with an emphasis on speed and easy to understand functionality.
+It was designed with an emphasis on speed and easy to understand functionality. 
+While the main focus is cryptocurrency analysis, most of the content can also be used 
+for any other asset.
 
-## Intro
+The module contains a simple backtest for single assets, a portfolio backtesting tool, 
+as well as some additional functions for time series analysis like event studies etc.
+
+## Short Intro
 
 A simple backtest can be done by creating a Backtest object:
 
