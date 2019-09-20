@@ -8,7 +8,7 @@ for any other asset.
 The module contains a simple backtest for single assets, a portfolio backtesting tool, 
 as well as some additional functions for time series analysis like event studies etc.
 
-[Table of content:](table-of-content)
+[Table of content](table-of-content)
 
   - [Short Intro](#short-intro)
   - [Detailed Description](#detailed-description)
