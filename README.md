@@ -10,8 +10,8 @@ as well as some additional functions for time series analysis like event studies
 
 [Table of content:](table-of-content)
 
-  -[Short Intro](#short-intro)
-  -[Detailed Description](#detailed-description)
+  - [Short Intro](#short-intro)
+  - [Detailed Description](#detailed-description)
 
 ## Short Intro
 
