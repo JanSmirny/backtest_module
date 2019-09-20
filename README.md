@@ -11,7 +11,7 @@ as well as some additional functions for time series analysis like event studies
 Table of content:
 
 [Short Intro](#short-intro)
-
+[Detailed Description](#detailed-description)
 
 ## Short Intro
 
@@ -49,6 +49,6 @@ After that a summary can be created by the summary() method:
 bt.summary()
 ```
 
-## Detailed 
+## Detailed Description
 
 A more detailed tutorial can be found in the jupyter notebook under /examples
