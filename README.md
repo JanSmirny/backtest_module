@@ -10,7 +10,7 @@ as well as some additional functions for time series analysis like event studies
 
 Table of content:
 
-[Short Intro] (#Short-Intro)
+[Short Intro] (#short-intro)
 
 
 ## Short Intro
