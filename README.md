@@ -11,7 +11,7 @@ as well as some additional functions for time series analysis like event studies
 
 ## Table of contents
 
-- [Table of contents](table-of-content)
+- [Table of contents](#table-of-content)
   - [Short Intro](#short-intro)
   - [Detailed Description](#detailed-description)
 
